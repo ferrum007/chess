@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>ОНЛАЙН-МАРАФОН ПО EXCEL</title>
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/global.css">
+</head>
+
+<body>
+	<div class="main">
+		<header class="header">
+			<div class="container">
+				<div class="row mb__60">
+					<div class="col-4 col-md-3 col-lg-2">
+						<img src="images/logo.png" alt="images" class="logo">
+					</div>
+					<div
+						class="col-lg-10 col-xl-8 d-flex justify-content-between align-items-center nav mobile-header-nav header__nav">
+						<a href="#block1" class="link s16">
+							Преимущества
+						</a>
+						<a href="#block2" class="link s16">
+							Чему вы научитесь
+						</a>
+						<a href="#block3" class="link s16">
+							Для кого
+						</a>
+						<a href="#block4" class="link s16">
+							Польза
+						</a>
+						<a href="#block5" class="link s16">
+							Стоимость курса
+						</a>
+						<a href="#block6" class="link s16">
+							О нас
+						</a>
+					</div>
+					<div class="col-8 col-md-9 d-block d-lg-none">
+						<nav class="mobile-menu">
+							<input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+							<label for="checkbox" onclick="burger()" class="mobile-menu__btn">
+								<div class="mobile-menu__icon"></div>
+							</label>
+						</nav>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-7 mt__90">
+						<h1 class="s48 mb__30 text-uppercase">
+							Онлайн курс шахмат <br>для начинающих
+						</h1>
+						<p class="s24 mb__25 grey">
+							Быстрый способ начать и понимать шахматы
+						</p>
+						<p class="s18 mb__25 grey">
+							30 уроков обучения игре, от азов до тактики и стратегии <br>
+							Повтори путь Лизы Хармон (Ход Королевы) и начни побеждать<br>
+							уже через неделю
+						</p>
+						<div class="d-flex">
+							<div>
+								<div class="shrink mb__5">
+									<img src="images/i2.png" alt="images">
+								</div>
+								<p class="s16 fw-600">
+									30 уроков
+								</p>
+							</div>
+							<div class="ml__45">
+								<div class="shrink mb__5">
+									<img src="images/i3.png" alt="images">
+								</div>
+								<p class="s16 fw-600">
+									7 дней
+								</p>
+							</div>
+							<div class="ml__45">
+								<div class="shrink mb__5">
+									<img src="images/i4.png" alt="images">
+								</div>
+								<p class="s16 fw-600">
+									Онлайн
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 offset-lg-1">
+						<div class="mb__20 text-center header-back">
+							<p class="s18 fw-600 mb__15 text-uppercase">
+								Начать обучение сейчас
+							</p>
+							<p class="s14 mb__30">
+								Оставьте ваши контакты и мы<br>
+								свяжемся с вами в ближайшее время
+							</p>
+							<div class="form-container">
+								<div class="notes"></div>
+								<div class="fields d-block mx-auto text-center">
+									<form class="ajax-contact-form" action="">
+										<input type="text" name="name" required value="" placeholder="Ваше имя"
+											class="my-in mb__20">
+										<input type="tel" name="phone" required value=""
+											placeholder="Ваш номер телефона" class="my-in mb__20">
+										<textarea type="hidden" name="message" class="d-none">-</textarea>
+										<input type="email" required name="email" value="" placeholder="Ваш email"
+											class="my-in mb__20  ">
+										<input type="submit" name="submit" class="form-btn" value="Записаться">
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+
+	<section>
+		<div class="mobile-menu__container">
+			<ul class="mobile-menu__list">
+				<li class="mobile-menu__item"><a href="#block1" class="mobile-menu__link s16 link">Преимущества</a>
+				</li>
+				<li class="mobile-menu__item"><a href="#block2" class="mobile-menu__link s16 link">Чему вы научитесь</a>
+				</li>
+				<li class="mobile-menu__item"><a href="#block3" class="mobile-menu__link s16 link">Для кого</a></li>
+				<li class="mobile-menu__item"><a href="#block4" class="mobile-menu__link s16 link">Польза</a>
+				</li>
+				<li class="mobile-menu__item"><a href="#block5" class="mobile-menu__link s16 link">Стоимость
+						курса</a>
+				<li class="mobile-menu__item"><a href="#block6" class="mobile-menu__link s16 link">О нас</a>
+				</li>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="block1" id="block1">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-flex align-items-center mb__40">
+					<h2 class="s36 fw-600 text-uppercase">
+						Преимущества курса
+					</h2>
+					<div class="bords"></div>
+				</div>
+				<div class="col-12 d-flex justify-content-between wrap">
+					<div>
+						<div class="shrink mb__15">
+							<img src="images/i8.png" alt="images">
+						</div>
+						<p class="s21">
+							Нацелен на тех кто<br>
+							хочет играть в<br>
+							удовольствие
+						</p>
+					</div>
+					<div>
+						<div class="shrink mb__15">
+							<img src="images/i9.png" alt="images">
+						</div>
+						<p class="s21">
+							Доступ к урокам<br>
+							пожизненно
+						</p>
+					</div>
+					<div>
+						<div class="shrink mb__15">
+							<img src="images/i10.png" alt="images">
+						</div>
+						<p class="s21">
+							Максимально<br>
+							быстрый переход<br>
+							к самой игре
+						</p>
+					</div>
+					<div>
+						<div class="shrink mb__15">
+							<img src="images/i11.png" alt="images">
+						</div>
+						<p class="s21">
+							Возможность<br>
+							смотреть уроки и<br>
+							играть на<br>
+							мобильном
+						</p>
+					</div>
+					<div>
+						<div class="shrink mb__15">
+							<img src="images/i12.png" alt="images">
+						</div>
+						<p class="s21">
+							Учитывает все<br>
+							возможности<br>
+							игры онлайн
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="main__two">
+		<section class="block3" id="block2">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-flex align-items-center mb__40">
+						<h2 class="s36 fw-600 text-uppercase">
+							Чему вы научитесь
+						</h2>
+						<div class="bords bords2"></div>
+					</div>
+					<div class="col-lg-7">
+						<img src="images/i16.png" alt="images">
+					</div>
+					<div class="col-lg-5 mt__40">
+						<div class="d-flex mb__25">
+							<div class="shrink">
+								<img src="images/i5.png" alt="images">
+							</div>
+							<p class="s18 ml__10 grey">
+								Расставлять фигуры на доске
+							</p>
+						</div>
+						<div class="d-flex mb__25">
+							<div class="shrink">
+								<img src="images/i5.png" alt="images">
+							</div>
+							<p class="s18 ml__10 grey">
+								Управлять всеми фигурами на доске
+							</p>
+						</div>
+						<div class="d-flex mb__25">
+							<div class="shrink">
+								<img src="images/i5.png" alt="images">
+							</div>
+							<p class="s18 ml__10 grey">
+								Ставить мат любой комбинацией фигур
+							</p>
+						</div>
+						<div class="d-flex mb__25">
+							<div class="shrink">
+								<img src="images/i5.png" alt="images">
+							</div>
+							<p class="s18 ml__10 grey">
+								Всем правилам и нюансам шахмат
+							</p>
+						</div>
+						<div class="d-flex mb__25">
+							<div class="shrink">
+								<img src="images/i5.png" alt="images">
+							</div>
+							<p class="s18 ml__10 grey">
+								Предвидеть действия противника
+							</p>
+						</div>
+						<div class="d-flex mb__25">
+							<div class="shrink">
+								<img src="images/i5.png" alt="images">
+							</div>
+							<p class="s18 ml__10 grey">
+								Принципам дебюта
+							</p>
+						</div>
+						<div class="d-flex mb__25">
+							<div class="shrink">
+								<img src="images/i5.png" alt="images">
+							</div>
+							<p class="s18 ml__10 grey">
+								Способам победить в конце партии
+							</p>
+						</div>
+						<div class="d-flex mb__25">
+							<div class="shrink">
+								<img src="images/i5.png" alt="images">
+							</div>
+							<p class="s18 ml__10 grey">
+								Контролировать ход партии
+							</p>
+						</div>
+						<p class="s24 fw-600 red">
+							Играть и побеждать в <br>
+							шахматы!
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<section class="block2" id="block3">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-flex align-items-center mb__40">
+					<h2 class="s36 fw-600 text-uppercase">
+						Для кого этот курс
+					</h2>
+					<div class="bords bords4"></div>
+				</div>
+				<div class="col-12 d-flex justify-content-between wrap">
+					<div>
+						<p class="num fw-700">
+							01
+						</p>
+						<p class="s21 lh15">
+							Кто видит в<br>
+							шахматах эстетику
+						</p>
+					</div>
+					<div>
+						<p class="num fw-700">
+							02
+						</p>
+						<p class="s21 lh15">
+							Кто хочет повысить<br>
+							качество своего<br>
+							досуга
+						</p>
+					</div>
+					<div>
+						<p class="num fw-700">
+							03
+						</p>
+						<p class="s21 lh15">
+							Кто вдохновился<br>
+							сериалом<br>
+							«Ход королевы»
+						</p>
+					</div>
+					<div>
+						<p class="num fw-700">
+							04
+						</p>
+						<p class="s21 lh15">
+							Кто давно хотел<br>
+							научиться, но все<br>
+							никак
+						</p>
+					</div>
+					<div>
+						<p class="num fw-700">
+							05
+						</p>
+						<p class="s21 lh15">
+							Кто хочет прокачать<br>
+							стратегическое и<br>
+							тактическое<br>
+							мышление
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block3" id="block4">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-flex align-items-center mb__40">
+					<h2 class="s36 fw-600 text-uppercase">
+						Польза игры в шахматы
+					</h2>
+					<div class="bords bords3"></div>
+				</div>
+				<div class="col-lg-6">
+					<p class="s18 mb__20">
+						Развивает стратегическое мышление
+					</p>
+					<p class="s18 mb__20">
+						Повышает скорость мышления
+					</p>
+					<p class="s18 mb__20">
+						Дает положительные эмоции от побед
+					</p>
+					<p class="s18 mb__20">
+						Создает нейронные связи
+					</p>
+					<p class="s18 mb__15">
+						Качественно другой вид досуга по сравнению
+						с казуальными играми в телефоне
+					</p>
+					<p class="s18 mb__20">
+						Расширяет круг знакомств
+					</p>
+					<p class="s18">
+						Чуство элитарности от причастности к игре
+					</p>
+				</div>
+				<div class="col-lg-6">
+					<img src="images/i15.png" alt="images">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block4" id="block5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+					<div class="shad">
+						<p class="s36 fw-700 red2 mb__25">
+							Стоимость курса
+						</p>
+						<div class="d-flex flex-c">
+							<div>
+								<div class="d-flex mb__20">
+									<div class="shrink">
+										<img src="images/i2.png" alt="images">
+									</div>
+									<p class="s21 ml__10 grey">
+										30 уроков
+									</p>
+								</div>
+								<div class="d-flex mb__20">
+									<div class="shrink">
+										<img src="images/i7.png" alt="images">
+									</div>
+									<p class="s21 ml__10 grey">
+										4 часа обучения
+									</p>
+								</div>
+								<div class="d-flex">
+									<div class="shrink">
+										<img src="images/i18.png" alt="images">
+									</div>
+									<p class="s21 ml__10 grey">
+										7 дней<br>
+										<span class="s16">средний срок проведения курса</span>
+									</p>
+								</div>
+							</div>
+							<div class="ml__30">
+								<div class="d-flex align-items-end mlm">
+									<p class="s30 price">
+										3 000
+									</p>
+									<p class="s16 ml__5 grey">
+										Рублей
+									</p>
+								</div>
+								<div class="d-flex align-items-end mlm">
+									<p class="s48 fw-700 red2">
+										1 200
+									</p>
+									<p class="s16 ml__5 grey">
+										Рублей
+									</p>
+								</div>
+								<div class="mt__30 w165">
+									<a href="#" class="my-btn2" data-toggle="modal" data-target="#modal3">
+										Начать обучение
+									</a>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<img src="images/i14.png" alt="images" class="chess-m">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block2" id="block6">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-flex align-items-center mb__40">
+					<h2 class="s36 fw-600 text-uppercase">
+						о hard skills academy
+					</h2>
+					<div class="bords bords5"></div>
+				</div>
+				<div class="col-12 d-flex justify-content-between wrap2">
+					<div>
+						<p class="num2 fw-700">
+							01
+						</p>
+						<p class="s30 lh15 text-uppercase fw-600">
+							Обучаем<br>
+							прикладным<br>
+							навыкам
+						</p>
+					</div>
+					<div>
+						<p class="num2 fw-700">
+							02
+						</p>
+						<p class="s30 lh15 text-uppercase fw-600">
+							отлаженная<br>
+							методика<br>
+							обучения
+						</p>
+					</div>
+					<div>
+						<p class="num2 fw-700">
+							03
+						</p>
+						<p class="s30 lh15 text-uppercase fw-600">
+							более<br>
+							1000<br>
+							учеников
+						</p>
+					</div>
+					<div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<img src="images/logo.png" alt="images" class="logo">
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		function loadScript(src) {
+			let script = document.createElement('script');
+			script.src = src;
+			script.async = false;
+			document.body.append(script);
+		}
+		function func() {
+			loadScript("js/jquery-3.4.1.min.js");
+			loadScript("js/bootstrap.min.js");
+			//loadScript("js/slick.min.js");
+			loadScript("js/main.js");
+			loadScript("js/contactform.js");
+		}
+		setTimeout(func, 500);
+	</script>
+
+	<script type="text/javascript">
+
+	</script>
+
+	<div class="modal fade my-forms-modal" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		style="z-index: 55555;">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">
+							&#10006;
+						</span>
+					</button>
+				</div>
+				<div class="modal-body text-center">
+					<div class="s27 fw-700 mb__40">Спасибо</div>
+					<p class="mb__35 fw-600 text-center">Ваш сообщение успешно отправлено. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade my-forms-modal" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		style="z-index: 55555;">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">
+							&#215;
+						</span>
+					</button>
+				</div>
+				<div class="modal-body text-center">
+					<div class="embed-responsive embed-responsive-16by9">
+						Текст
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
